@@ -13,7 +13,7 @@ app = Flask(__name__)
 CORS(app)
 
 # Configuration de l'API
-os.environ["GEMINI_API_KEY"] = "AIzaSyAD-mHgk7uJQy3hK641mNiRIv7iKUDUmtM"  # Remplacez par votre clé API valide
+os.environ["GEMINI_API_KEY"] = "-----------------"  # Remplacez par votre clé API valide
 persist_directory = "./chroma_db"
 
 # Initialisation du modèle et du vector store (chargé une seule fois)
